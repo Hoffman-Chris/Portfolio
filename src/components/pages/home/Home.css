@@ -1,0 +1,50 @@
+
+
+#portfolio-link {
+    position: relative;
+    width: 100%;
+}
+
+img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5 ease;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition: all 0.5s ease;
+    color: white;
+    text-align: center;
+
+    h1 {
+        font-size: 5vw;
+    };
+
+    span {
+        font-size: 3vw;
+    };
+}
+
+
+#portfolio-link:hover img {
+    opacity: 0.5;
+}
+
+#portfolio-link:hover .title {
+    opacity: 1;
+}
+
+
+
+
